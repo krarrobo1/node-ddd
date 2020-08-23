@@ -1,9 +1,9 @@
 module.exports = {
     PORT: process.env.PORT,
     DB: {
-        user: 'postgres',
-        password: 'secret-password',
-        database: 'school_prod',
+        username: 'postgres',
+        password: '1234',
+        database: 'school_dev',
         host: 'localhost',
         dialect: 'postgres'
     }
